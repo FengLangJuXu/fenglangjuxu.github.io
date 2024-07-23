@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhan.ge</id>
+    <title>zhan.ge</title>
+    <updated>2024-07-23T01:36:17.798Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhan.ge"/>
+    <link rel="self" href="https://zhan.ge/atom.xml"/>
+    <subtitle>&lt;font color=&apos;red&apos; size=&apos;10&apos;&gt;&lt;b&gt;Zhan.Ge&lt;/b&gt;&lt;/font&gt;</subtitle>
+    <logo>https://zhan.ge/images/avatar.png</logo>
+    <icon>https://zhan.ge/favicon.ico</icon>
+    <rights>All rights reserved 2024, zhan.ge</rights>
+    <entry>
+        <title type="html"><![CDATA[战歌]]></title>
+        <id>https://zhan.ge/post/zhan-ge/</id>
+        <link href="https://zhan.ge/post/zhan-ge/">
+        </link>
+        <updated>2024-07-23T01:34:59.000Z</updated>
+    </entry>
+</feed>
