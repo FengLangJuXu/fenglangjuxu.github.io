@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>将进酒 | </title>
+<link rel="shortcut icon" href="https://zhan.ge/favicon.ico?v=1739178934058">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zhan.ge/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="将进酒 |  - Atom Feed" href="https://zhan.ge/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="君不见黄河之水天上来，奔流到海不复回。
+君不见高堂明镜悲白发，朝如青丝暮成雪。
+人生得意须尽欢，莫使金樽空对月。
+天生我材必有用，千金散尽还复来。
+烹羊宰牛且为乐，会须一饮三百杯。
+岑夫子，丹丘生，将进酒，杯莫停。
+与君歌一曲，请君为我倾耳..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhan.ge">
+  <img class="avatar" src="https://zhan.ge/images/avatar.png?v=1739178934058" alt="">
+  </a>
+  <h1 class="site-title">
+    
+  </h1>
+  <p class="site-description">
+    <font color='red' size='10'><b>Zhan.Ge</b></font>
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+           
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              将进酒
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-26
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>君不见黄河之水天上来，奔流到海不复回。<br>
+君不见高堂明镜悲白发，朝如青丝暮成雪。<br>
+人生得意须尽欢，莫使金樽空对月。<br>
+天生我材必有用，千金散尽还复来。<br>
+烹羊宰牛且为乐，会须一饮三百杯。<br>
+岑夫子，丹丘生，将进酒，杯莫停。<br>
+与君歌一曲，请君为我倾耳听。<br>
+钟鼓馔玉不足贵，但愿长醉不复醒。<br>
+古来圣贤皆寂寞，惟有饮者留其名。<br>
+陈王昔时宴平乐，斗酒十千恣欢谑。<br>
+主人何为言少钱，径须沽取对君酌。<br>
+五花马，千金裘，<br>
+呼儿将出换美酒，与尔同销万古愁。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zhan.ge/post/lu-xun/">
+              <h3 class="post-title">
+                鲁迅
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  QQ:1694669
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>封狼居胥 | </title>
+<link rel="shortcut icon" href="https://zhan.ge/favicon.ico?v=1739178934058">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zhan.ge/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="封狼居胥 |  - Atom Feed" href="https://zhan.ge/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="长安日落共逍遥，
+朔漠无边路迢迢。
+思君封狼居胥日，
+豪气穿云入九霄。
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhan.ge">
+  <img class="avatar" src="https://zhan.ge/images/avatar.png?v=1739178934058" alt="">
+  </a>
+  <h1 class="site-title">
+    
+  </h1>
+  <p class="site-description">
+    <font color='red' size='10'><b>Zhan.Ge</b></font>
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+           
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              封狼居胥
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-26
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="长安日落共逍遥">长安日落共逍遥，</h2>
+<h2 id="朔漠无边路迢迢">朔漠无边路迢迢。</h2>
+<h2 id="思君封狼居胥日">思君封狼居胥日，</h2>
+<h2 id="豪气穿云入九霄">豪气穿云入九霄。</h2>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E9%95%BF%E5%AE%89%E6%97%A5%E8%90%BD%E5%85%B1%E9%80%8D%E9%81%A5">长安日落共逍遥，</a></li>
+<li><a href="#%E6%9C%94%E6%BC%A0%E6%97%A0%E8%BE%B9%E8%B7%AF%E8%BF%A2%E8%BF%A2">朔漠无边路迢迢。</a></li>
+<li><a href="#%E6%80%9D%E5%90%9B%E5%B0%81%E7%8B%BC%E5%B1%85%E8%83%A5%E6%97%A5">思君封狼居胥日，</a></li>
+<li><a href="#%E8%B1%AA%E6%B0%94%E7%A9%BF%E4%BA%91%E5%85%A5%E4%B9%9D%E9%9C%84">豪气穿云入九霄。</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zhan.ge/post/chun-tian/">
+              <h3 class="post-title">
+                春天
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  QQ:1694669
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

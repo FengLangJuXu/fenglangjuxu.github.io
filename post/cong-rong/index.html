@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>从容 | </title>
+<link rel="shortcut icon" href="https://zhan.ge/favicon.ico?v=1739178934058">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zhan.ge/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="从容 |  - Atom Feed" href="https://zhan.ge/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="宠辱不惊,闲看庭前花开花落
+去留无意,漫观天外云卷云舒
+从容不迫,淡定潇洒~
+" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhan.ge">
+  <img class="avatar" src="https://zhan.ge/images/avatar.png?v=1739178934058" alt="">
+  </a>
+  <h1 class="site-title">
+    
+  </h1>
+  <p class="site-description">
+    <font color='red' size='10'><b>Zhan.Ge</b></font>
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+           
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              从容
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-02-19
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="宠辱不惊闲看庭前花开花落">宠辱不惊,闲看庭前花开花落</h2>
+<h2 id="去留无意漫观天外云卷云舒">去留无意,漫观天外云卷云舒</h2>
+<h2 id="从容不迫淡定潇洒~">从容不迫,淡定潇洒~</h2>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%AE%A0%E8%BE%B1%E4%B8%8D%E6%83%8A%E9%97%B2%E7%9C%8B%E5%BA%AD%E5%89%8D%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD">宠辱不惊,闲看庭前花开花落</a></li>
+<li><a href="#%E5%8E%BB%E7%95%99%E6%97%A0%E6%84%8F%E6%BC%AB%E8%A7%82%E5%A4%A9%E5%A4%96%E4%BA%91%E5%8D%B7%E4%BA%91%E8%88%92">去留无意,漫观天外云卷云舒</a></li>
+<li><a href="#%E4%BB%8E%E5%AE%B9%E4%B8%8D%E8%BF%AB%E6%B7%A1%E5%AE%9A%E6%BD%87%E6%B4%92~">从容不迫,淡定潇洒~</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zhan.ge/post/jian-chi/">
+              <h3 class="post-title">
+                坚持
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  QQ:1694669
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

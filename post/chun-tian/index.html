@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>春天 | </title>
+<link rel="shortcut icon" href="https://zhan.ge/favicon.ico?v=1739178934058">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zhan.ge/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="春天 |  - Atom Feed" href="https://zhan.ge/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="从没有如此的期待春天的到来,看到外面的阳光明媚,却只能远远的看着.
+春天,我会好好待你,不负我殷殷盼望.
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhan.ge">
+  <img class="avatar" src="https://zhan.ge/images/avatar.png?v=1739178934058" alt="">
+  </a>
+  <h1 class="site-title">
+    
+  </h1>
+  <p class="site-description">
+    <font color='red' size='10'><b>Zhan.Ge</b></font>
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+           
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              春天
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-02-22
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h3 id="从没有如此的期待春天的到来看到外面的阳光明媚却只能远远的看着">从没有如此的期待春天的到来,看到外面的阳光明媚,却只能远远的看着.</h3>
+<h3 id="春天我会好好待你不负我殷殷盼望">春天,我会好好待你,不负我殷殷盼望.</h3>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E4%BB%8E%E6%B2%A1%E6%9C%89%E5%A6%82%E6%AD%A4%E7%9A%84%E6%9C%9F%E5%BE%85%E6%98%A5%E5%A4%A9%E7%9A%84%E5%88%B0%E6%9D%A5%E7%9C%8B%E5%88%B0%E5%A4%96%E9%9D%A2%E7%9A%84%E9%98%B3%E5%85%89%E6%98%8E%E5%AA%9A%E5%8D%B4%E5%8F%AA%E8%83%BD%E8%BF%9C%E8%BF%9C%E7%9A%84%E7%9C%8B%E7%9D%80">从没有如此的期待春天的到来,看到外面的阳光明媚,却只能远远的看着.</a></li>
+<li><a href="#%E6%98%A5%E5%A4%A9%E6%88%91%E4%BC%9A%E5%A5%BD%E5%A5%BD%E5%BE%85%E4%BD%A0%E4%B8%8D%E8%B4%9F%E6%88%91%E6%AE%B7%E6%AE%B7%E7%9B%BC%E6%9C%9B">春天,我会好好待你,不负我殷殷盼望.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zhan.ge/post/cong-rong/">
+              <h3 class="post-title">
+                从容
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  QQ:1694669
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
